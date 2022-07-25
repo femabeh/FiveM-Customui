@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+* {padding: 0; margin: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif;}
+
+.playerStats{
+	position: absolute;
+	left: 17%; /* Default: 450px */
+	bottom: 12px; /* Default: 20px */
+
+	right: 82.0%; /* (18.2% Right Side of Map) | (82.0% Right Side of Screen) | (2.7% Above Map)  */
+	bottom: 41.85; /* (1.85% Default-Fix for all 16:9 resolutions) | (21.0% Above Map) */
+}
+
+.stat{
+	color: #fff;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.623) 100%,rgb(0, 0, 0.623) 25%);
+	width: 262px;
+	height: 30px;
+	position: relative;
+	margin-bottom: 7px;
+	/* box-shadow: 0 10px 15px rgba(0,0,0,0.3); */
+}
+
+.stat .icon{
+	height: 30px;
+	width: 30px;
+	background: rgba(2, 0, 5, 0.952);
+	position: relative;
+	display: inline-block;
+	right: 15px;
+}
+
+.icon {
+	border-radius: 20%;
+}
+
+.stat .icon i, .stat .icon img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.stat .icon img{
+	height: 18px;
+	width: 18px;
+}
+
+
+.stat span{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-left: -10px;
+}
+
+
+.stat .progress {
+	top: 17.5%;
+	left: 9%;
+	width: 87.5%;
+	height: 65%;
+	box-sizing: border-box;
+	/* border-radius: 15px 15px 15px 15px; */
+	position: absolute;
+}
+
+.status{
+	display: flex;
+	width: 195px;
+	position: relative;
+	left: -15px;
+	justify-content: space-between;
+}
+
+progress::-webkit-progress-value { background: white; }
+progress::-webkit-progress-bar { background: rgb(49, 49, 49); }
