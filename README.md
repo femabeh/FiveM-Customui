@@ -3,6 +3,8 @@ A Fork of a FiveM Hud/UI from https://breadfish.de/blog/entry/171-fivem-exclusiv
 
 Changes: All is Working with ESX
 
+Dependency: https://forum.cfx.re/t/release-nearest-postal-script/293511
+
 Original:
 ![grafik](https://user-images.githubusercontent.com/77273892/180739278-ffe9c389-92c9-49e3-a45f-93af925e89ce.png)
 
